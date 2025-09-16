@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
+/* Header *
 header {
     display: flex;
     justify-content: space-between;
@@ -218,4 +218,5 @@ footer {
     padding-top: 20px;
     font-size: 14px;
     color: white;
+
 }
