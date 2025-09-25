@@ -24,7 +24,7 @@ body{
 }
 
 .button{
-    background-color: bisque;
+    background-color: bisque
     color: rgb(44, 42, 165);
 }
 p{
@@ -44,5 +44,6 @@ p{
     font-size: 60px;
 
 }
+
 
 
