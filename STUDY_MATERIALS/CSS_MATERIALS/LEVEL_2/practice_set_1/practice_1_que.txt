@@ -1,0 +1,2 @@
+1.Create a div with height and width 100px and its background color to green.
+2.Create a traffic light
