@@ -1,5 +1,21 @@
-h1{
-  font-size:2px;
-  collor: red;
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: black; */
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
 }
-
+h1{
+    width: 150px;
+    background-color: aqua;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: black; */
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50%;
+}
