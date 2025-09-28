@@ -1,0 +1,17 @@
+
+
+main{
+    height: 500px;
+}
+
+.containBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+footer{
+    background-color:#0f1111;
+    color: white;
+    text-align: center;
+}
