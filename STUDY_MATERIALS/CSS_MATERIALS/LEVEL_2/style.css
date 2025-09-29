@@ -9,7 +9,7 @@
     border-radius: 10px;
     margin-top: 50px;
 }
-#box2{
+#box2
     background-color: pink;
     display: inline;
 }
@@ -50,3 +50,4 @@ h1{
 #box6{
     background-color: rgba(72, 20, 195,.25);
 }
+
