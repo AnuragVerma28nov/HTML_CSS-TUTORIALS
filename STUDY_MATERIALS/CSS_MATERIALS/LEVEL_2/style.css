@@ -7,7 +7,7 @@
     border-color: black; */
     border: 2px solid black;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 50px
 }
 #box2{
     background-color: pink;
@@ -50,5 +50,6 @@ h1{
 #box6{
     background-color: rgba(72, 20, 195,.25);
 }
+
 
 
