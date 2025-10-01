@@ -8,7 +8,6 @@ This repository contains organized study materials for learning web development,
   Contains CSS tutorials, practice sets, and projects organized by difficulty levels (LEVEL_1 to LEVEL_5). Each level includes:
   - `index.html` and `style.css` for main exercises.
   - Practice sets with their own folders, each containing questions and solutions.
-  - **AMAZON_CLONE/**: A project folder for building an Amazon-like website using CSS.
 
 - **HTML_MATERIALS/**  
   Contains HTML tutorials, example files, and media resources.
@@ -38,3 +37,4 @@ Feel free to add new practice sets, improve existing solutions, or suggest new p
   - Year: 2025  
 
 Thank you for visiting this repository!
+
