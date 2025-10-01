@@ -1,0 +1,18 @@
+.loader {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 20px solid red;
+    border-top: 20px solid black;
+    animation: Spinloader 2s ease-in 0s infinite normal;
+
+}
+@keyframes Spinloader {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}

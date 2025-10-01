@@ -1,0 +1,7 @@
+Create the following layout using the html 
+1.Give a  div with height and width background image.
+2.Use the appropriate position property for the elements to place it at the right end of the page.
+<p>lorem*5</p>
+<div> Love Nature</div>
+<p>lolrem*5</p
+

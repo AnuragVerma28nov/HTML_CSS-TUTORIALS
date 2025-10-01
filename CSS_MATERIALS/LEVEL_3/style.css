@@ -1,0 +1,36 @@
+#box {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 10px;
+}
+
+.box1 {
+    background-color: red;
+    height: 50px;
+    width: 30%;
+    font-size: 2rem;
+}
+
+.Main {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1 {
+    background-image: url("image.jpg");
+    background-size: contain;
+
+}
+#box2 {
+    background-image: url("image.jpg");
+    background-size: cover;
+}
+#box3 {
+    background-image: url("image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
