@@ -1,5 +1,0 @@
-1.Create a webpage page layout with a header a footer a content area containing 3 divs.
-  Set the height and width of divs to 100 PX (add the previous navbar in the header )  {Floder : FLIPKART CLONE}
-2.Add border to all divs.
-3.Add a differe background color to each divs with opacity of 0.5. 
-4.Give the content area and appropriate height
