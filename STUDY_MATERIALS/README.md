@@ -1,4 +1,4 @@
-# HTML_CSS-TUTORIALS
+# STUDY_MATERIALS
 
 This repository contains organized study materials for learning web development, focusing on HTML and CSS. The folder structure is designed to help you progress from beginner to advanced concepts with hands-on exercises, projects, and reference materials.
 
@@ -36,4 +36,5 @@ Feel free to add new practice sets, improve existing solutions, or suggest new p
 ## 🧑‍💻 Author
   - Anurag Verma 
   - Year: 2025  
+
 Thank you for visiting this repository!
