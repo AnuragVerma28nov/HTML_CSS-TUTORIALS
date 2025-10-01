@@ -1,0 +1,29 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+}
+@media (max-width : 300px) {
+    .box{
+        background-color: green;
+    }
+    
+}
+@media (min-width : 300px) and (max-width : 400px) {
+    .box{
+        background-color: pink;
+    }
+    
+}
+@media (min-width : 400px) and (max-width : 600px) {
+    .box{
+        background-color: red;
+    }
+    
+}
+@media (min-width : 600px) {
+    .box{
+        background-color: blue;
+    }
+    
+} 
