@@ -7,8 +7,6 @@ This repository contains organized study materials for learning web development,
 - **FORNTEND PROJECTS/**  
   - **AMAZON_CLONE/**: A project folder for building an Amazon-like website using HTML CSS.
   - **ZOMATO_CLONE/**: A project folder for building an Zomato-like website using HTML CSS.
-
-- **STUDY_MATERIALS/**
   - **CSS MATERIALS/**: Begin with LEVEL_1 and work through each level and practice set in order. Each practice set contains questions and exercises to reinforce your learning.
   - **HTML MATERIALS/**:Learn and practice basic HTML structure and elements.
 
