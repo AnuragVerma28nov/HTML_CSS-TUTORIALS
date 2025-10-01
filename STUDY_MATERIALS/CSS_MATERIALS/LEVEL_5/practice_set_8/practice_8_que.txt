@@ -1,0 +1,4 @@
+Create a simple loader Choosing css
+1. Create a div with  circular shape and Thick border from onr end {Top/bottom/left/Right}
+2. To make it spin create an animation with transforms it from 0deg to 360deg
+3. Add the animation property to the loader with infinite duration

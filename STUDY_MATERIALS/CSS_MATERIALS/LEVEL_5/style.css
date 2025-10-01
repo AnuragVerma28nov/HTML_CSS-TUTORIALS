@@ -1,0 +1,82 @@
+.main {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay:1s; */
+    /* transition: all 2s ease-in-out 0.2s; */
+    /* transform: rotate(45deg); */
+    /* animation: colorAnimate;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite; */
+    animation: colorAnimate 2s ease-in 5s infinite normal;
+
+}
+
+
+/* div:hover{
+    background-color: red;
+    color: white;
+    font-size:20px ;
+    rotate: 45deg;
+    transform: scale(2);
+    transform: translate(200px,200px);
+    transform: skew(45deg);
+}  
+div:active{
+    background-color: yellow;
+} */
+@keyframes colorAnimate {
+    from {
+        background-color: aqua;
+        left: 0px;
+
+    }
+
+    to {
+        background-color: red;
+        left: 200px;
+        color: aqua;
+    }
+
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+      animation: colorAnimateBox 5s ease-in 1s infinite normal;
+}
+
+@keyframes colorAnimateBox{
+    0% {
+        background-color: aqua;
+        left: 0px;
+
+    }
+
+    50% {
+        background-color: blue;
+        left: 200px;
+        color: aqua;
+    }
+
+    100% {
+        background-color: red;
+        left: 500px;
+        color: aqua;
+    }
+
+}
