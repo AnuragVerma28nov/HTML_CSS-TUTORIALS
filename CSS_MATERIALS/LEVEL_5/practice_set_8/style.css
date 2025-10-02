@@ -4,7 +4,7 @@
     border-radius: 50%;
     border: 20px solid red;
     border-top: 20px solid black;
-    animation: Spinloader 2s ease-in 0s infinite normal;
+    animation: Spinloader 2s ease-in 0s infinit normal;
 
 }
 @keyframes Spinloader {
@@ -15,4 +15,5 @@
         transform: rotate(360deg);
     }
     
+
 }
