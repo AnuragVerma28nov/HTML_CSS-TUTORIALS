@@ -1,4 +1,4 @@
 1. Create a Navbar with 4 options in the form of anchor tag inside list items. Use flex box to place them all is spaced equally in a single line.
 2. Use flexbox to center one div inside another div.
+3. Which has higher priority aligned items or align self.
 
-3. Which has higher priority aligned items or align self
