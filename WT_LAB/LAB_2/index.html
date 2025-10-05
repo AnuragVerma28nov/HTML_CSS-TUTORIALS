@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institute of Technology & Science</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="/IMAGES/biet_logo.jpeg" alt="Institute Logo" style="height: 100px; border-radius: 50px;">
+                </div>
+                <div class="institute-name">
+                    <h1>Bansal Institute of Technology & Engineering</h1>
+                    <p>NH-24, Sitapur Road,Lucknow, Uttar Pradesh</p>
+                </div>
+            </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="/LAB_1/index.html"> Home</a></li>
+            <li><a href="#"> About Us</a></li>
+            <li><a href="#"> Entry Forms</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="#"> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="page-header">
+            <h2>Institute Entry Forms</h2>
+            <p>Please select the appropriate form below to submit your details. All fields marked with * are required.
+            </p>
+        </div>
+
+        <!-- Form Section -->
+        <section class="form-section" id="formsSection">
+            <div class="form-tabs">
+                <button class="tab-btn active" onclick="openForm('studentForm')"><i class="fas fa-user-graduate"></i>
+                    Student Details</button>
+                <button class="tab-btn" onclick="openForm('employeeForm')"><i class="fas fa-user-tie"></i> Employee
+                    Information</button>
+                <button class="tab-btn" onclick="openForm('facultyForm')"><i class="fas fa-chalkboard-teacher"></i>
+                    Faculty Details</button>
+            </div>
+
+            <!-- Student Form -->
+            <div id="studentForm" class="form-content active">
+                <form id="studentDetailsForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="studentName">Full Name *</label>
+                            <input type="text" id="studentName" name="studentName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="studentId">Student ID *</label>
+                            <input type="text" id="studentId" name="studentId" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="studentDob">Date of Birth *</label>
+                            <input type="date" id="studentDob" name="studentDob" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="studentGender">Gender *</label>
+                            <select id="studentGender" name="studentGender" required>
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="studentCourse">Course *</label>
+                            <select id="studentCourse" name="studentCourse" required>
+                                <option value="">Select Course</option>
+                                <option value="btech">B.Tech</option>
+                                <option value="mtech">M.Tech</option>
+                                <option value="mca">MCA</option>
+                                <option value="bca">BCA</option>
+                                <option value="phd">Ph.D</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="studentDepartment">Department *</label>
+                            <select id="studentDepartment" name="studentDepartment" required>
+                                <option value="">Select Department</option>
+                                <option value="cse">Computer Science & Engineering</option>
+                                <option value="ee">Electrical Engineering</option>
+                                <option value="me">Mechanical Engineering</option>
+                                <option value="ce">Civil Engineering</option>
+                                <option value="it">Information Technology</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="studentEmail">Email Address *</label>
+                            <input type="email" id="studentEmail" name="studentEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="studentPhone">Phone Number *</label>
+                            <input type="tel" id="studentPhone" name="studentPhone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="studentAddress">Permanent Address *</label>
+                        <textarea id="studentAddress" name="studentAddress" rows="3" required></textarea>
+                    </div>
+
+                    <div class="form-footer">
+                        <button type="submit" class="btn">Submit Student Details</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Employee Form -->
+            <div id="employeeForm" class="form-content">
+                <form id="employeeFormDetails">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="employeeName">Full Name *</label>
+                            <input type="text" id="employeeName" name="employeeName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="employeeId">Employee ID *</label>
+                            <input type="text" id="employeeId" name="employeeId" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="employeeDob">Date of Birth *</label>
+                            <input type="date" id="employeeDob" name="employeeDob" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="employeeGender">Gender *</label>
+                            <select id="employeeGender" name="employeeGender" required>
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="employeeDepartment">Department *</label>
+                            <select id="employeeDepartment" name="employeeDepartment" required>
+                                <option value="">Select Department</option>
+                                <option value="admin">Administration</option>
+                                <option value="accounts">Accounts</option>
+                                <option value="library">Library</option>
+                                <option value="hostel">Hostel</option>
+                                <option value="maintenance">Maintenance</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="employeePosition">Position *</label>
+                            <input type="text" id="employeePosition" name="employeePosition" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="employeeEmail">Email Address *</label>
+                            <input type="email" id="employeeEmail" name="employeeEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="employeePhone">Phone Number *</label>
+                            <input type="tel" id="employeePhone" name="employeePhone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="employeeAddress">Permanent Address *</label>
+                        <textarea id="employeeAddress" name="employeeAddress" rows="3" required></textarea>
+                    </div>
+
+                    <div class="form-footer">
+                        <button type="submit" class="btn">Submit Employee Details</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Faculty Form -->
+            <div id="facultyForm" class="form-content">
+                <form id="facultyFormDetails">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="facultyName">Full Name *</label>
+                            <input type="text" id="facultyName" name="facultyName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="facultyId">Faculty ID *</label>
+                            <input type="text" id="facultyId" name="facultyId" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="facultyDob">Date of Birth *</label>
+                            <input type="date" id="facultyDob" name="facultyDob" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="facultyGender">Gender *</label>
+                            <select id="facultyGender" name="facultyGender" required>
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="facultyDepartment">Department *</label>
+                            <select id="facultyDepartment" name="facultyDepartment" required>
+                                <option value="">Select Department</option>
+                                <option value="cse">Computer Science & Engineering</option>
+                                <option value="ee">Electrical Engineering</option>
+                                <option value="me">Mechanical Engineering</option>
+                                <option value="ce">Civil Engineering</option>
+                                <option value="it">Information Technology</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="facultyPosition">Position *</label>
+                            <select id="facultyPosition" name="facultyPosition" required>
+                                <option value="">Select Position</option>
+                                <option value="professor">Professor</option>
+                                <option value="associate-professor">Associate Professor</option>
+                                <option value="assistant-professor">Assistant Professor</option>
+                                <option value="lecturer">Lecturer</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="facultyQualification">Highest Qualification *</label>
+                            <input type="text" id="facultyQualification" name="facultyQualification" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="facultySpecialization">Specialization *</label>
+                            <input type="text" id="facultySpecialization" name="facultySpecialization" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="facultyEmail">Email Address *</label>
+                            <input type="email" id="facultyEmail" name="facultyEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="facultyPhone">Phone Number *</label>
+                            <input type="tel" id="facultyPhone" name="facultyPhone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="facultyAddress">Permanent Address *</label>
+                        <textarea id="facultyAddress" name="facultyAddress" rows="3" required></textarea>
+                    </div>
+
+                    <div class="form-footer">
+                        <button type="submit" class="btn">Submit Faculty Details</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+
+        <div class="copyright">
+            <p>&copy; 2023 Institute of Technology & Science. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Function to switch between forms
+        function openForm(formName) {
+            // Hide all form contents
+            var formContents = document.getElementsByClassName("form-content");
+            for (var i = 0; i < formContents.length; i++) {
+                formContents[i].classList.remove("active");
+            }
+
+            // Remove active class from all buttons
+            var tabButtons = document.getElementsByClassName("tab-btn");
+            for (var i = 0; i < tabButtons.length; i++) {
+                tabButtons[i].classList.remove("active");
+            }
+
+            // Show the specific form content and set button to active
+            document.getElementById(formName).classList.add("active");
+            event.currentTarget.classList.add("active");
+
+            // Scroll to the form section
+            document.getElementById('formsSection').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Form submission handling
+        document.getElementById("studentDetailsForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            alert("Student details submitted successfully!");
+            this.reset();
+        });
+
+        document.getElementById("employeeFormDetails").addEventListener("submit", function (e) {
+            e.preventDefault();
+            alert("Employee details submitted successfully!");
+            this.reset();
+        });
+
+        document.getElementById("facultyFormDetails").addEventListener("submit", function (e) {
+            e.preventDefault();
+            alert("Faculty details submitted successfully!");
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>

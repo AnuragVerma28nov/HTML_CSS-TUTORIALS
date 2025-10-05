@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="book.xsl"?>
+<!DOCTYPE library SYSTEM "book.dtd">
+
+<library>
+  <book isbn="978-0131103627" category="reference">
+    <title>The C Programming Language</title>
+    <author>
+      <firstname>Brian</firstname>
+      <lastname>Kernighan</lastname>
+    </author>
+    <publisher>Prentice Hall</publisher>
+    <year>1988</year>
+    <price>67.50</price>
+    <description>Classic, authoritative C language book.</description>
+  </book>
+
+  <book isbn="978-0596007126" category="nonfiction">
+    <title>Head First Design Patterns</title>
+    <author>
+      <firstname>Eric</firstname>
+      <lastname>Freeman</lastname>
+    </author>
+    <publisher>O'Reilly Media</publisher>
+    <year>2004</year>
+    <price>44.99</price>
+  </book>
+</library>

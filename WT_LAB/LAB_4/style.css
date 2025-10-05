@@ -1,0 +1,72 @@
+Css * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    margin-top: 100px;
+    height: 70%;
+    width: 50%;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items:
+        center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 30px;
+}
+
+form img {
+    height: 20%;
+}
+
+input {
+    height: 30px;
+    width: 80%;
+    padding: 0px 20px;
+    background: rgba(255, 236, 93, 0.339);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+label {
+    height: 30px;
+    width: 80%;
+    text-align: left;
+}
+
+#btn {
+    width: 40%;
+    cursor: pointer;
+}
+
+@media (max-width:400px) {
+    form {
+        width: 95%;
+    }
+}
+
+@media (max-width:600px) {
+    form {
+        margin-top: 0;
+        height: 80%;
+        width: 70%
+    }
+}

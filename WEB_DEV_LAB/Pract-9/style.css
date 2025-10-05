@@ -1,0 +1,230 @@
+* { 
+    box-sizing: border-box; 
+} 
+ 
+.header1 { 
+    display: flex; 
+} 
+ 
+.logo-container { 
+    width: 40%; 
+    /* border: 2px solid; */ 
+    padding-block: 20px; 
+    background: rgb(238, 193, 110); 
+    text-align: center; 
+    border-right: transparent; 
+} 
+ 
+.title { 
+    width: 80%; 
+    /* border: 2px solid; */ 
+    border-left: transparent; 
+    padding-block: 20px; 
+    padding-right: 60px; 
+    background: rgb(238, 193, 110); 
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+ 
+.navbar ul { 
+    display: flex; 
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+} 
+ 
+.navbar ul li { 
+    border: 1px solid; 
+    width: calc(100% / 5); 
+    padding-block: 20px; 
+    text-align: center; 
+    /* border-top: transparent; */ 
+    background: rgb(236, 186, 166); 
+} 
+ 
+.navbar ul li:not(:first-child) { 
+    border-left: transparent; 
+} 
+ 
+.navbar ul li a { 
+    text-decoration: none; 
+    color: #000; 
+    font-size: large; 
+    /* border: 2px solid blueviolet; */ 
+} 
+ 
+.navbar ul li a:hover { 
+    color: rgb(179, 53, 230); 
+    cursor: pointer; 
+} 
+ 
+.navbar ul li a:visited{ 
+    color: #008080; 
+} 
+ 
+.section { 
+    display: flex; 
+    border: 1px solid; 
+    border-top: transparent; 
+    background-image: url(back_img.avif); 
+    background-position: center; 
+    background-size: cover; 
+    /* color: #fff; */ 
+    position: relative; 
+} 
+/*  
+.section::before{ 
+    content: ''; 
+    height: 100%; 
+    width: 100%; 
+    background-color: #0000005c; 
+    position: absolute; 
+    z-index: 1; 
+} */ 
+ 
+.left,.right{ 
+    position: relative; 
+    z-index: 3; 
+} 
+ 
+.left { 
+    min-height: 100%; 
+    padding-block: 20px; 
+    width: 20%; 
+    /* background-color: rgb(212 206 189 / 20%); */ 
+    border-right: 1px solid; 
+} 
+ 
+.left ul { 
+    list-style-type: none; 
+    padding: 0; 
+} 
+ 
+.left ul li { 
+    text-align: center; 
+    margin-block: 15px; 
+} 
+ 
+.left ul li a { 
+    text-decoration: none; 
+    color: #fff; 
+    font-size: large; 
+} 
+ 
+.right { 
+    width: 80%; 
+    /* padding: 20px; 
+    min-height: 100%; 
+    width: 80%; 
+    /* background-color: rgb(212 206 189 / 20%);  
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; */ 
+} 
+ 
+.right:not(:first-child){ 
+    display: flex; 
+    flex-direction: row; 
+} 
+ 
+.right p { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans
+serif; 
+    font-size: larger; 
+} 
+ 
+.footer { 
+    border: 1px solid black; 
+    border-top: transparent; 
+    width: 100%; 
+    height: 50px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ 
+.catalogue { 
+    padding: 20px; 
+    min-height: 100%; 
+    width: 80%; 
+    /* background-color: rgba(189, 212, 194, 0.2); */ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+} 
+ 
+.catalogue table { 
+    /* border: 2px solid #000; */ 
+    padding: 10px; 
+} 
+ 
+.catalogue td { 
+    border: 2px solid brown; 
+    background-color: #b2fab1a1; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 20px; 
+    font-size: 18px; 
+} 
+ 
+.catalogue td a { 
+    text-decoration: none; 
+} 
+ 
+.catalogue button { 
+    border: 3px solid gray; 
+    padding: 5px; 
+    border-radius: 13px; 
+    background-color: rgb(238, 205, 76); 
+    align-items: center; 
+    display: flex; 
+    transition: all 1s linear(0 0%, 0 2.27%, 0.02 4.53%, 0.04 6.8%, 0.06 
+9.07%, 0.1 11.33%, 0.14 13.6%, 0.25 18.15%, 0.39 22.7%, 0.56 27.25%, 
+0.77 31.8%, 1 36.35%, 0.89 40.9%, 0.85 43.18%, 0.81 45.45%, 0.79 
+47.72%, 0.77 50%, 0.75 52.27%, 0.75 54.55%, 0.75 56.82%, 0.77 59.1%, 
+0.79 61.38%, 0.81 63.65%, 0.85 65.93%, 0.89 68.2%, 1 72.7%, 0.97 
+74.98%, 0.95 77.25%, 0.94 79.53%, 0.94 81.8%, 0.94 84.08%, 0.95 
+86.35%, 0.97 88.63%, 1 90.9%, 0.99 93.18%, 0.98 95.45%, 0.99 97.73%, 
+1 100%); 
+ 
+    &:hover { 
+        color: blue; 
+        transform: scale(1.05); 
+        cursor: pointer; 
+    } 
+ 
+} 
+ 
+.catalogue .cover { 
+    border: 4px double black; 
+    border-radius: 9px; 
+} 
+ 
+.catalogue .price:hover { 
+    color: red; 
+    text-decoration: underline; 
+    cursor: pointer; 
+} 
+ 
+.branch a { 
+    transition: all 0.3s ease; 
+} 
+/*  
+.branch a:hover { 
+    color: #FFFF00; 
+    background-color: rgb(97, 50, 205); 
+    border-radius: 7px; 
+    transform: scale(1.05); 
+} */ 
+ 
+.branch a:active{ 
+    background-color: rgb(41, 47, 229); 
+    border-radius: 6px; 
+} 
+ 
+ 

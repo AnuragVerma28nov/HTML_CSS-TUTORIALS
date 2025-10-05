@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+.header1 {
+    display: flex;
+}
+
+.logo-container {
+    width: 40%;
+    border: 2px solid;
+    padding-block: 20px;
+    background: rgb(238, 193, 110);
+    text-align: center;
+    border-right: transparent;
+}
+
+.title {
+    width: 80%;
+    border: 2px solid;
+    border-left: transparent;
+    padding-block: 20px;
+    padding-right: 60px;
+    background: rgb(238, 193, 110);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    border: 2px solid;
+    width: calc(100% / 5);
+    padding-block: 20px;
+    text-align: center;
+    border-top: transparent;
+    background: rgb(236, 186, 166);
+}
+
+.navbar ul li:not(:first-child) {
+    border-left: transparent;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
+
+.navbar ul li a:hover {
+    color: rgb(179, 53, 230);
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    border: 2px solid;
+    border-top: transparent;
+}
+
+.left {
+    min-height: 100%;
+    padding-block: 20px;
+    width: 20%;
+    background-color: rgb(212 206 189 / 20%);
+    border-right: 2px solid;
+}
+
+.left ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left ul li {
+    text-align: center;
+    margin-block: 15px;
+}
+
+.left ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
+
+.login {
+    padding: 20px;
+    min-height: 100%;
+    width: 80%;
+    background-color: rgba(204, 180, 139, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input label {
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    font-size: larger;
+}
+
+.login button {
+    border: 2px dotted rgb(221, 91, 43);
+    border-radius: 9px;
+    font-size: 16px;
+    margin-top: 17px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px indianred;
+}
+
+.login fieldset {
+    background-color: rgb(185, 238, 221);
+    padding: 30px 50px 60px 50px;
+}
+
+.login .username,
+.pass {
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    font-size: 17px;
+}
+
+.login button:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.footer {
+    border: 1px solid black;
+    border-top: transparent;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
