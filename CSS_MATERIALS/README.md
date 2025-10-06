@@ -1,12 +1,8 @@
-# CSS Materials
+# CSS MATERIALS
 
 This repository contains organized CSS study materials, including tutorials, practice sets, and project examples. The folder structure is designed to help you progress from beginner to advanced CSS concepts with hands-on exercises.
 
 ## Folder Structure
-
-- **AMAZON_CLONE/**
-  - A project folder containing an Amazon website clone for practical CSS application.
-  - `index.html`, `style.css`
 
 - **LEVEL_1/**
   - Beginner-level CSS concepts and practice sets.
@@ -32,13 +28,6 @@ This repository contains organized CSS study materials, including tutorials, pra
   - Expert-level CSS practice.
   - `index.html`, `style.css`
   - `practice_set_8/`: Contains an `index.html`, `style.css`, and a question file.
-
-## How to Use
-
-1. Start with `LEVEL_1` and work through the practice sets in order.
-2. Review the question files before attempting each practice set.
-3. Use the `AMAZON_CLONE` project to apply your CSS knowledge in a real-world scenario.
-4. Progress through each level to build a strong foundation and advance your CSS skills.
 
 ## Contributing
 Feel free to add new practice sets, improve existing solutions, or suggest new projects!
