@@ -1,4 +1,4 @@
-# HTML Materials
+# HTML MATERIALS
 
 This folder contains organized study materials and resources for learning and practicing HTML. It is designed to help you build a strong foundation in HTML through examples, exercises, and embedded media.
 
@@ -23,12 +23,6 @@ This folder contains organized study materials and resources for learning and pr
 
 2. **Edit `style.css`**  
    Modify the CSS file to see how styles affect the HTML elements.
-
-3. **Practice Embedding Media**  
-   Use the provided video file and iframe examples to learn how to embed multimedia content.
-
-4. **Experiment**  
-   Add new HTML elements, try different attributes, and link more media files to deepen your understanding.
 
 ## Tips
 
